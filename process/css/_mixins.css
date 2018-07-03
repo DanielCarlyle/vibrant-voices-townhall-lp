@@ -1,0 +1,41 @@
+@define-mixin backImage
+  $image,
+  $height: 100vh,
+  $grstart: rgba(0,0,0,.2),
+  $grend: rgba(0,0,0,.5),
+  $bgPos: center center {
+  background: linear-gradient( to bottom, $grstart, $grend), url($image);
+  background-repeat: no-repeat;
+  background-position: $bgPos;
+  background-size: cover;
+  height: 100vh;
+  max-height: $height;
+}
+
+
+@define-mixin clearfix {
+    &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+
+
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}

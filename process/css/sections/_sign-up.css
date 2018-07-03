@@ -1,0 +1,11 @@
+#signup form {
+    background-color: #f3d350;
+    padding: 2rem 1.25rem;
+    box-shadow: 1px 3px 3px #cdbcbc;
+}
+
+#signup form .btn-primary {
+    color: #fff;
+    background-color: #092f55;
+    border-color: #191c1e;
+}

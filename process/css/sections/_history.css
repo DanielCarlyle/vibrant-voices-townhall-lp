@@ -1,0 +1,46 @@
+#history {
+  background-color: $yellow;
+
+  @media $large {
+    background-image: url('../images/');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 30% auto;
+    min-height: 50vh;
+
+    .text-content {
+      width: 70%;
+    }
+  }
+
+  .headline {
+    color: $red;
+  }
+
+  em {
+    color: color($orange shade(10%));
+  }
+
+}
+
+
+#history .headline{color:#d14348}
+#history em{color:#e37808}
+
+  #history{
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 30% auto;
+    min-height: 25vh;
+    background-color: #f3d350;
+    padding: 5rem 0;
+  }
+
+
+#history .text-content {
+  width: 100%;
+
+  @media $medium {
+   width: 70%;
+  }
+}

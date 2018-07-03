@@ -1,0 +1,10 @@
+.super-header {
+    background-color: rgba(213,183,56,.98);
+    padding: 1rem 0;
+
+   a  {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}

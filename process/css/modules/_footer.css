@@ -1,0 +1,84 @@
+.footer {
+    background-color: #001821;
+    color: #fff;
+    padding: 0 0 5em;
+    line-height: 100%;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-position: top;
+
+    a, a:hover {
+    color: #f3d450;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+}
+
+  .footer .social-buttons {
+    margin: 0 auto;
+    padding-top: 6rem;
+    position: relative;
+    z-index: 5;
+}
+
+
+.footer .social-buttons a {
+    margin-right: 1rem;
+    color: inherit;
+}
+
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.footer .social-buttons a {
+    margin-right: 1rem;
+    color: inherit;
+}
+
+.border-bottom-line {
+    border-bottom: 1px solid #999898;
+}
+
+.under-footer ul li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+
+.copyright {
+    color: #b9b9ba;
+    float: right;
+}
+
+
+@media only screen and (max-width: 767px) {
+.copyright {
+    color: #b9b9ba;
+    float: left;
+   }
+}
+
+input[type=email].input-active, input[type=email]:focus, input[type=text].input-active, input[type=text]:focus, textarea.input-active, textarea:focus, input[type=password].input-active, input[type=password]:focus, input[type=number].input-active, input[type=number]:focus {
+  background-position: 0 0;
+  box-shadow: none;
+  outline: 0;
+  border: 3px solid #092f55;
+}
+
+.return {
+    color: #f26925;
+    margin: 0 auto;
+    float: left;
+    font-size: 1em;
+}
+
+.blog-bottom-border {
+    border-bottom: 1px solid rgba(236,236,237,1);
+    margin: 0 0 10px 0;
+}

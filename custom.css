@@ -1,0 +1,275 @@
+body {
+    background: rgba(59, 172, 176, 0.1) !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,d2ebf9+100;Blue+3D+%2312 */
+     background: rgb(254,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
+    line-height: 21px;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+/* -----------------------
+Helper Classes
+---------------------------
+*/
+.center {
+    text-align:center;
+}
+
+
+
+/* -----------------------
+Header - Top Section
+---------------------------
+*/
+#top-line {
+    background: #3bacb0;
+}
+#wrapper {
+    background: #fcfcfc;
+}
+
+/* -----------------------
+Navigation Section
+---------------------------
+*/
+#navigation {
+    height: auto;
+    max-width: 1040px;
+    margin-left: -10px;
+    background-color: #3bacb0;
+    float: left;
+    left: 1px;
+}
+#navigation .menu > li:hover > a {
+    background-color: #247679;
+    border-left: none;
+    padding-left: 21px;
+}
+#navigation .menu > li {
+    border-right: 1px solid rgba(102, 102, 102, 0.3);
+}
+#current, #navigation ul li a.sf-depth-1.active, #navigation ul li.active-trail a.sf-depth-1 {
+    background-color: #299498;
+    border-right: solid 1px #299498 !important; */
+}
+
+/* -----------------------
+Header Section
+---------------------------
+*/
+
+.advertisement-img {
+    margin-top: -31px !important;
+    margin-left: -30px !important;
+}
+
+
+#block-block-15 img {
+    /*margin: auto; */
+    margin-top: -31px;
+    margin-left: -30px;
+}
+
+
+@media (max-width: 841px ){
+  .advertisement-img {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+
+#block-block-15 img {
+    margin: auto;
+
+  }
+}
+
+
+
+/* -----------------------
+Highlighted - Banner Section
+---------------------------
+*/
+.banner {
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+.banner-trim {
+    background: #3bacb0;
+    padding: 1px 0 1px 0;
+    margin-top: -65px;
+    z-index: -100;
+}
+
+
+.button.orange-inline {
+    background: #f1781b;
+    margin-bottom: 1em;
+    display: inline;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.text-warning-red {
+    color: #d11b1b !important;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* -----------------------
+Group Insurance Page
+---------------------------
+*/
+.group-insurance h1 {
+    font-size: 2.1em;
+    line-height: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0.2;
+    word-spacing: 0.1em;
+}
+
+/* -----------------------
+Accordion Styling for RPWs Page
+---------------------------
+*/
+.toggle-wrap {
+    float: left;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    /* margin-bottom: 15px; */
+    margin-bottom: 0 !important;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+}
+/* -----------------------
+RPW Page
+---------------------------
+*/
+.rpw-description {
+    margin-left: 2em !important;
+    line-height: 1.7em;
+    color: #4c4c4c;
+}
+
+/* -----------------------
+Extended Healthcare Page
+---------------------------
+*/
+.box-callout {
+    background-color: rgba(59, 172, 176, 0.6);
+    border: 1px solid #e0e0e0;
+    padding: 2em;
+    margin: 15px 0;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+}
+.box-callout h5 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3b4040;
+}
+.box-callout a {
+    font-weight: 800;
+    color: #fff;
+}
+.button.gray:hover, .button.light:hover, .button.color, input[type="button"], input[type="submit"], input[type="button"]:focus, input[type="submit"]:focus {
+  background: #48b5ba;
+}
+p.box-lead-text {
+  font-size: 21px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* -----------------------
+Button
+---------------------------
+*/
+.button.gray:hover, .button.light:hover, .button.color {
+    background: #3bacb0;
+    margin-bottom: 1em;
+}
+.button.color:hover {
+    background: #32696b!important;
+    box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15);
+}
+
+
+/* -----------------------
+Classified Ads View Page
+---------------------------
+*/
+
+.views-title-new {
+  background-color: #3aacb0;
+  padding: 1em 1em;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 800;
+}
+.views-title-new  a {
+    color: #fcfcfc;
+}
+
+
+ .view-clone-of-ad-for-classified-ads-2018 .large-notice {
+     background-color: #2f4142;
+    /* border: 1px solid #e0e0e0; */
+    padding: 1rem;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.03);
+}
+
+.view-clone-of-ad-for-classified-ads-2018 .large-notice h2{
+    color: #ffffff;
+}
+
+
+#edit-submit-clone-of-ad-for-classified-ads-2018 .button.gray:hover, .button.light:hover, .button.color, input[type="button"], input[type="submit"], input[type="button"]:focus, input[type="submit"]:focus, select {
+    /*background: #48b5ba; */
+    margin: 0.75rem 0;
+    padding: 8px 9px;
+}
+
+
+.view .view-clone-of-ad-for-classified-ads-2018 view-id-clone_of_ad_for_classified_ads_2018 view-display-id-block_1 view-dom-id-09dca994d3d110eb1d7d6acf756051a0 .views-table table thead{
+      background: #3aacb0;
+      color: white;
+      font-size: 1.4em;
+  }
+}
+.view .view-clone-of-ad-for-classified-ads-2018 view-id-clone_of_ad_for_classified_ads_2018 view-display-id-block_1 view-dom-id-09dca994d3d110eb1d7d6acf756051a0 .views-field .views-field-title {
+    padding: 2em 1em;
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #3aacb0;
+}
+.view .view-clone-of-ad-for-classified-ads-2018 view-id-clone_of_ad_for_classified_ads_2018 view-display-id-block_1 view-dom-id-09dca994d3d110eb1d7d6acf756051a0 .views-field .views-field-title a {
+    color: #003971;
+}
+/* -----------------------
+Footer
+---------------------------
+*/
+
+#footer {
+    background: #3bacb0;
+    width: 100%;
+    padding: 30px 0 31px 0;
+    margin: 0 auto;
+    font-size: 12px;
+}
+#footer-bottom {
+    /* background: #424242 */
+    font-size: 12px;
+    width: 100%;
+    background: #333;
+}
